@@ -3,9 +3,7 @@ import axios from 'axios';
 import './App.css';
 import React, { useState, useEffect } from 'react'
 
-
-
-function App() {
+const App = () => {
   const [data, setData] = useState('Loading...')
   const [planetNumber, setPlanetNumber] = useState(1)
 
