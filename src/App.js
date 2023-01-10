@@ -33,7 +33,7 @@ class App extends React.Component {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="planetName">
           {this.state.data}
         </p>
         <input value={this.state.planetNumber} type="number" id="quantity" name="quantity" min="1" max="5" onChange={(e) => {
