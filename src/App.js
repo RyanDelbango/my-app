@@ -14,7 +14,7 @@ class App extends React.Component {
       planet: this.state.planetNumber
     }
     this.setState({ data: 'Loading...' })
-    const { data } = await axios.post('http://localhost:3001/', body )
+    const { data } = await axios.post('http://127.0.0.1:5000', body )
     this.setState({ data })
   }
 
